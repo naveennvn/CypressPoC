@@ -1,0 +1,16 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cy:postAPI": "cypress run --spec cypress/e2e/1-PoCExample/post.cy.js",
+    "cy:headless:Chrome":"cypress run --spec cypress/e2e/1-PoCExample/*.js"
+  },
+  "author": "Naveen R",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
